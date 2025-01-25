@@ -19,9 +19,11 @@ jobs:
             ${{ runner.os }}-pnpm-
       - name: Install dependencies
         run: pnpm install
-      - name: Build
-        run: pnpm run build
-      - name: Deploy pages
+      - name: Build all packages
+        run: pnpm run -r build
+      - name: Export PNG for all packages
+        run: pnpm --workspace-concurrency=1 run -r export:png
+      - name: Deploy pages to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
           build_dir: dist

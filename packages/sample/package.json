@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build --out ../../dist/sample --base /slides/sample",
-    "export": "slidev export --output ../output/example.pdf",
-    "export:pptx": "slidev export --output ../output/example --format pptx"
+    "export": "slidev export --output ../../dist/sample/pdf/sample.pdf",
+    "export:png": "slidev export ./pages/title.md --output ../../dist/sample/images --format png"
   }
 }
