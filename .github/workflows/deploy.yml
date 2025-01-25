@@ -23,6 +23,8 @@ jobs:
         run: pnpm run -r build
       - name: Export PNG for all packages
         run: pnpm --workspace-concurrency=1 run -r export:png
+      - name: Generate index page
+        run: pnpm run generate:index
       - name: Deploy pages to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:

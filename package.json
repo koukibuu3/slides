@@ -6,7 +6,8 @@
   "scripts": {
     "build": "pnpm run -r build",
     "export": "pnpm run -r export",
-    "export:png": "pnpm run -r export:png"
+    "export:png": "pnpm run -r export:png",
+    "generate:index": "node list.mjs"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.2",
