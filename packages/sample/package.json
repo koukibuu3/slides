@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --out ../../dist/sample",
+    "build": "slidev build --out ../../dist/sample --base /slides/sample",
     "export": "slidev export --output ../output/example.pdf",
     "export:pptx": "slidev export --output ../output/example --format pptx"
   }
