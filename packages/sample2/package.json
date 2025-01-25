@@ -1,0 +1,14 @@
+{
+  "name": "sample2",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --out ../../dist/sample2",
+    "export": "slidev export --output ../output/example.pdf",
+    "export:pptx": "slidev export --output ../output/example --format pptx"
+  },
+  "dependencies": {
+    "slidev-theme-one": "*"
+  }
+}
