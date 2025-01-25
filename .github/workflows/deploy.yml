@@ -21,9 +21,6 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm run build
-      - name: Update paths for GitHub Pages
-        run: |
-          find dist -name '*.html' -exec sed -i 's/\/assets\//.\/assets\//g' {} +
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
