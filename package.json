@@ -8,7 +8,7 @@
     "export": "pnpm run -r export",
     "export:png": "pnpm run -r export:png",
     "generate:index": "node list.mjs",
-    "fix:image": "find ./packages -name 'title.md' | xargs sed -i 's/image: \"\\/public/image: \"\\./g'"
+    "fix:image": "find ./packages -name '*.md' | xargs sed -i 's/image: \"\\/public/image: \"\\./g'"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.2",
