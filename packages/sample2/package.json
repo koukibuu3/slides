@@ -6,7 +6,7 @@
     "dev": "slidev --open",
     "build": "slidev build --out ../../dist/sample2 --base /slides/sample2",
     "export": "slidev export --output ../../dist/sample2/pdf/sample2.pdf",
-    "export:png": "slidev export ./pages/title.md --output ../../dist/sample2/images --format png"
+    "export:png": "slidev export --output ../../dist/sample2/images --format png"
   },
   "dependencies": {
     "slidev-theme-one": "*"
