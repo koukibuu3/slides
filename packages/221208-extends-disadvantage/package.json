@@ -1,0 +1,14 @@
+{
+  "name": "221208-extends-disadvantage",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --out ../../dist/221208-extends-disadvantage --base /slides/221208-extends-disadvantage",
+    "export": "slidev export --output ../../dist/221208-extends-disadvantage/pdf/221208-extends-disadvantage.pdf",
+    "export:png": "slidev export ./pages/title.md --output ../../dist/221208-extends-disadvantage/images --format png"
+  },
+  "dependencies": {
+    "slidev-theme-one": "workspace:*"
+  }
+}

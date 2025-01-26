@@ -17,8 +17,17 @@ jobs:
           key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
+      - name: Install fonts
+        run: |
+          sudo apt-get install fonts-noto-cjk
+      - name: Setting locale
+        run: |
+          sudo locale-gen ja_JP.UTF-8
+          sudo update-locale LANG=ja_JP.UTF-8
       - name: Install dependencies
         run: pnpm install
+      - name: Modify path to public
+        run: find ./packages -name '*.md' | xargs sed -i 's/\/public/\./g'
       - name: Build all packages
         run: pnpm run -r build
       - name: Export PNG for all packages

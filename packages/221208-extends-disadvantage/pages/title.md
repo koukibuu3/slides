@@ -1,6 +1,7 @@
 ---
+theme: one
 layout: intro
-image: "/public/main-visual.jpg"
+image: "/main-visual.jpg"
 mainTitle: "継承に絡む密結合"
 subTitle: "コード設計"
 baseColor: "green"
