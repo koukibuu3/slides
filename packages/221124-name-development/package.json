@@ -1,0 +1,14 @@
+{
+  "name": "221124-name-development",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --out ../../dist/221124-name-development --base /slides/221124-name-development",
+    "export": "slidev export --output ../../dist/221124-name-development/pdf/221124-name-development.pdf",
+    "export:png": "slidev export --output ../../dist/221124-name-development/images --format png"
+  },
+  "dependencies": {
+    "slidev-theme-one": "*"
+  }
+}

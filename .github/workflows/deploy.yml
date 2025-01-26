@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Modify path to public
-        run: find ./packages -name '*.md' | xargs sed -i 's/\/public/\./g'
+        run: pnpm run fix:image
       - name: Build all packages
         run: pnpm run -r build
       - name: Export PNG for all packages

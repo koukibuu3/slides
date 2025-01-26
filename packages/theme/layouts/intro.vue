@@ -35,10 +35,11 @@
   color: #fff !important;
   font-weight: 900 !important;
   /* background-color: #009244 !important; */
-  padding: 1.5rem 1rem !important;
+  padding: 0.8rem !important;
   text-align: center;
   position: absolute;
   top: 250px;
+  bottom: 180px;
   left: 250px;
   right: 0;
 }

@@ -24,16 +24,16 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
 
+  packages/221124-name-development:
+    dependencies:
+      slidev-theme-one:
+        specifier: '*'
+        version: link:../theme
+
   packages/221208-extends-disadvantage:
     dependencies:
       slidev-theme-one:
         specifier: workspace:*
-        version: link:../theme
-
-  packages/sample2:
-    dependencies:
-      slidev-theme-one:
-        specifier: '*'
         version: link:../theme
 
   packages/theme:
