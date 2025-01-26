@@ -1,0 +1,1 @@
+import{o as s,b as t,e as o,f as a}from"./modules/vue-CuKUIAEL.js";import{u as l}from"./slidev/context-Drsdl_Nd.js";const r={class:"slidev-layout default"},c={class:"my-auto w-full"},i={__name:"default",setup(_){return l(),(e,d)=>(s(),t("div",r,[o("div",c,[a(e.$slots,"default")])]))}};export{i as _};
