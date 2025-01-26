@@ -7,5 +7,8 @@
     "build": "slidev build --out ../../dist/sample --base /slides/sample",
     "export": "slidev export --output ../../dist/sample/pdf/sample.pdf",
     "export:png": "slidev export ./pages/title.md --output ../../dist/sample/images --format png"
+  },
+  "dependencies": {
+    "slidev-theme-one": "workspace:*"
   }
 }
