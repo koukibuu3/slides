@@ -9,6 +9,6 @@
     "export:png": "slidev export --output ../../dist/221124-name-development/images --format png"
   },
   "dependencies": {
-    "slidev-theme-one": "*"
+    "slidev-theme-one": "workspace:*"
   }
 }
