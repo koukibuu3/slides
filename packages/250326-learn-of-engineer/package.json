@@ -1,0 +1,14 @@
+{
+  "name": "250326-learn-of-engineer",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --out ../../dist/250326-learn-of-engineer --base /slides/250326-learn-of-engineer",
+    "export": "slidev export --output ../../dist/250326-learn-of-engineer/pdf/250326-learn-of-engineer.pdf",
+    "export:png": "slidev export --output ../../dist/250326-learn-of-engineer/images --format png"
+  },
+  "dependencies": {
+    "slidev-theme-one": "workspace:*"
+  }
+}

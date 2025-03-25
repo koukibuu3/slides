@@ -16,6 +16,7 @@
 
 <style>
 .splash h1 {
+  font-weight: 900 !important;
   color: #fff !important;
   background-color: #009244 !important;
 }

@@ -5,3 +5,13 @@
     </div>
   </div>
 </template>
+
+<style>
+.slidev-layout.cover {
+  text-align: center;
+}
+
+.slidev-layout.cover h1 {
+  font-weight: 900;
+}
+</style>
