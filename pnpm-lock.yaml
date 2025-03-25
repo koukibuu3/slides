@@ -36,6 +36,12 @@ importers:
         specifier: workspace:*
         version: link:../theme
 
+  packages/250326-learn-of-engineer:
+    dependencies:
+      slidev-theme-one:
+        specifier: workspace:*
+        version: link:../theme
+
   packages/theme:
     dependencies:
       '@slidev/types':
