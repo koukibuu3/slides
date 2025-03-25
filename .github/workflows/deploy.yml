@@ -30,6 +30,8 @@ jobs:
         run: pnpm run fix:image
       - name: Build all packages
         run: pnpm run -r build
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install chromium
       - name: Export PNG for all packages
         run: pnpm --workspace-concurrency=1 run -r export:png
       - name: Generate index page
